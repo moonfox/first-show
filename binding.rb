@@ -18,4 +18,4 @@ b2 = demo2.get_binding
 
 
 puts eval("@number", b1)
-puts eval("n", b2)
+puts b2.eval("@kind")
